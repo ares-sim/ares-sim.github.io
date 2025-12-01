@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>ARES</title>
+  <style id="themestyle"></style>
+  <script>
+    // this is ran as soon as possible
+    window.urlParams = new URLSearchParams(window.location.search);
+    window.testsuiteName = urlParams.get('testsuite');
+    if (window.testsuiteName) window.earlyFetches = {
+      asm: fetch(testsuiteName + ".S"),
+      json: fetch(testsuiteName + ".json"),
+      assignment: fetch(testsuiteName + ".txt")}
+    else window.earlyFetches = null;
+  </script>
+  <script type="module" crossorigin src="/assets/index-CN7mSYa9.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-fCn6YAhh.css">
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
+</html>
