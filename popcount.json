@@ -1,0 +1,38 @@
+[
+	{
+		"input": "N: .word 37",
+		"output": "3"
+	},
+	{
+		"input": "N: .word 63",
+		"output": "6"
+	},
+	{
+		"input": "N: .word 10",
+		"output": "2"
+	},
+	{
+		"input": "N: .word -1",
+		"output": "32"
+	},
+	{
+		"input": "N: .word 15",
+		"output": "4"
+	},
+	{
+		"input": "N: .word 1024",
+		"output": "1"
+	},
+	{
+		"input": "N: .word 1",
+		"output": "1"
+	},
+	{
+		"input": "N: .word -2",
+		"output": "31"
+	},
+	{
+		"input": "N: .word 4097",
+		"output": "2"
+	}
+]

@@ -1,0 +1,3 @@
+Write RISC-V code that puts in `t2` the number of 1 bits contained in the binary value of register `t0`.
+For example, if `t0=37` (`0b100101`), the expected result is `3`.
+Hint: use the logical instructions and, srli, etc. appropriately.
